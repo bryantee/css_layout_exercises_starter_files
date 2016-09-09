@@ -1,0 +1,45 @@
+
+.box {
+  border: 1px solid black;
+  display: inline-block;
+  float: left;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.top-row {
+  height: 200px;
+}
+
+.bottom-row {
+  height: 300px;
+}
+
+.green {
+  width: 50%;
+  background-color: green;
+}
+
+.blue {
+  width: 50%;
+  background-color: blue;
+}
+
+.grey {
+  width: 33.33%;
+  background-color: grey;
+}
+
+.yellow {
+  width: 33.33%;
+  background-color: gold;
+}
+
+.black {
+  width: 33.33%;
+  background-color: black;
+}
