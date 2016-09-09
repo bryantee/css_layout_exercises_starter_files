@@ -1,7 +1,7 @@
 nav {
   height: 75px;
   background-color: lightblue;
-  padding: 20px;
+  padding: 20px 60px;
 }
 
 nav > img {
@@ -29,5 +29,34 @@ nav > ul li {
 
 nav > ul li > a::after {
   content: ' | ';
+}
 
+/* ---- END NAV / START MAIN ---- */
+
+body {
+  background-image: url('../images/outerspace_landscape.jpeg');
+  background-size: cover;
+}
+
+.green-box {
+  border: 10px green dotted;
+  height: 300px;
+  width: 600px;
+  margin: 150px auto;
+}
+
+.space-cat {
+  height: 200px;
+  width: 200px;
+  position: relative;
+  top: -100px;
+  left: -100px;
+}
+
+.space-dog {
+  height: 200px;
+  width: 200px;
+  position: relative;
+  top: 150px;
+  left: 300px;
 }
